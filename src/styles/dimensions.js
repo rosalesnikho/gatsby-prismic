@@ -9,6 +9,5 @@ const dimensions = {
     paddingHorizontalDesktop: 4,
     paddingHorizontalTablet: 2.5,
     paddingHorizontalMobile: 2,
-}
-
+};
 export default dimensions;
