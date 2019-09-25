@@ -1,7 +1,7 @@
 import React from "react";
 
 const Logo = () => (
-    <img className="profile-img" src="https://avatars3.githubusercontent.com/u/48695183?s=460&v=4" alt=""/>
+    <img className="profile-img" src="https://camo.githubusercontent.com/92e522bf74096f5f57a8545187da476247b66af1/68747470733a2f2f692e696d6775722e636f6d2f4b6c506171436b2e706e67" alt=""/>
 );
 
 export default Logo;
