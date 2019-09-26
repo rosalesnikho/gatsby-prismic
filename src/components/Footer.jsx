@@ -52,10 +52,10 @@ const Footer = () => (
         <Link to="/">
             <Logo />
         </Link>
-        <FooterAuthor href="https://marguerite.io">
+        <FooterAuthor href="https://www.nikrosales.dev">
             © 2019 — NikRosales.Dev | San Antonio, Texas
         </FooterAuthor>
     </FooterContainer>
-)
+);
 
 export default Footer;
