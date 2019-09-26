@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -54,8 +53,7 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://marguerite.io">
-            © 2019 — Designed & developed by Marguerite Roth
-            <FooterSpooch className="FooterSpooch" src={spooch} />
+            © 2019 — NikRosales.Dev | San Antonio, Texas
         </FooterAuthor>
     </FooterContainer>
 )
