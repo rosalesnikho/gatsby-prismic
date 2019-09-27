@@ -11,4 +11,4 @@ A light-themed starter powered by [Gatsby v2](https://www.gatsbyjs.org) and [Pri
 
 ### The template is developed by: (http://prist.marguerite.io)
 
-www.nikrosales.dev
+
