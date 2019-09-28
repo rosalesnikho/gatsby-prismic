@@ -30,6 +30,7 @@ module.exports = {
             linkResolver: () => post => `/${post.uid}`,
         }
     },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -42,6 +43,7 @@ module.exports = {
         icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
       },
     },
+
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
     {
         resolve: `gatsby-plugin-google-analytics`,
@@ -50,8 +52,13 @@ module.exports = {
             head: true,
         },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+
+      {
+          resolve: `gatsby-plugin-google-adsense`,
+          options: {
+              publisherId: `ca-pub-2063447360053197`
+          },
+      },
+
   ],
 }
