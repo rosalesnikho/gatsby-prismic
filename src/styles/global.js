@@ -13,9 +13,9 @@ const globalStyles = css`
     }
     
     pre {
-		background-color: #E8E8E8;
+		background-color: #084C61;
 		padding: 9px;
-		color: #4B0082;
+		color: #E3B505;
 	}
     
     body {
