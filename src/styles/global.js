@@ -11,13 +11,7 @@ const globalStyles = css`
         -moz-osx-font-smoothing: grayscale;
         min-height: 100%;
     }
-    
-    pre {
-		background-color: #084C61;
-		padding: 9px;
-		color: #E3B505;
-	}
-    
+       
     body {
         width: 100%;
         margin: 0 auto;
@@ -39,6 +33,12 @@ const globalStyles = css`
                 color: white;
             }
         }
+	pre {
+		background-color: #084C61;
+		padding: 9px;
+		color: #E3B505;
+		font-size: .85em
+	}
     }
 
     /*
