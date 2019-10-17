@@ -94,6 +94,7 @@ const WorkAction = styled(Link)`
 `
 
 const RenderBody = ({ home, projects, meta }) => (
+
     <>
         <Helmet
             title={meta.title}

@@ -13,8 +13,8 @@ const WorkTitle = styled("h1")`
 const Work = ({ projects, meta }) => (
     <>
         <Helmet
-            title={`Work | Prist, Gatsby & Prismic Starter`}
-            titleTemplate={`%s | Work | Prist, Gatsby & Prismic Starter`}
+            title={`Work | Nik Rosales, Web Developer | Web Projects`}
+            titleTemplate={`%s | Work `}
             meta={[
                 {
                     name: `description`,

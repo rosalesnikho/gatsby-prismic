@@ -7,6 +7,7 @@ import { RichText } from "prismic-reactjs";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Layout from "components/Layout";
+import GoogleAds from "../components/GoogleAdsense";
 
 const PostHeroContainer = styled("div")`
     max-height: 500px;
@@ -157,6 +158,7 @@ const Post = ({ post, meta }) => {
                     </PostHeroContainer>
                 )}
                 <PostBody>
+                    <GoogleAds slot="1797665191"/>
                     {RichText.render(post.post_body)}
                 </PostBody>
             </Layout>
